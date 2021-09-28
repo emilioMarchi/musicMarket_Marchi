@@ -4,7 +4,7 @@ import './header.css';
 function Nav() {
     return (
         <nav className= "navbar">
-            <a href= '#'>Ecomerce</a>
+            <a href= '#'>musicMaster</a>
             <ul className= "nav-list">
                 <li><a href= '#'>Inicio</a></li>
                 <li><a href= '#'>Productos</a></li>
