@@ -1,20 +1,33 @@
+import React, {Component} from 'react';
+
+import Header from './components/header';
+
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <nav>
-          <a href=""><img src="logo.svg" alt="" />musicMaster</a>
-          <ul>
-            <li><a href="">Inicio</a></li>
-            <li><a href="">Productos</a></li>
-          </ul>
-        </nav>
-      </header>
-    </div>
-  );
+class App extends Component() {
+  constructor() {
+    super();
+    this.state = {
+      state: false;
+    }
+  }
+  
+  componentWillMount() {}
+
+  componentDidMount() {}
+
+  componentDidUpdate() {}
+
+  render() {
+
+    return (
+      <Header />
+      <div>
+        <h1>Hola mundo. El estado es {this.state.state} </h1>
+      </div>
+    );
+  }
 }
 
 export default App;
