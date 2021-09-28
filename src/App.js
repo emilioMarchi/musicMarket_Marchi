@@ -1,33 +1,15 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-import Header from './components/header';
-
-import logo from './logo.svg';
 import './App.css';
 
-class App extends Component() {
-  constructor() {
-    super();
-    this.state = {
-      state: false;
-    }
-  }
-  
-  componentWillMount() {}
+import Nav from './components/header/header.js';
 
-  componentDidMount() {}
-
-  componentDidUpdate() {}
-
-  render() {
-
+function App() {
     return (
-      <Header />
       <div>
-        <h1>Hola mundo. El estado es {this.state.state} </h1>
+        <Nav />
       </div>
     );
   }
-}
 
 export default App;
