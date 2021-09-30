@@ -1,16 +1,25 @@
 import React from 'react';
-import './itemsContainer.css';
+import './ItemsContainer.css';
 
-function itemsContainer() {
+function ItemsContainer() {
     return (
-        <nav className= "navbar">
-            <a href= '#'>musicMaster</a>
-            <ul className= "nav-list">
-                <li><a href= '#'></a></li>
-                <li><a href= '#'>Productos</a></li>
-                <li><a href= '#'>Carrito</a></li>
-            </ul>
-        </nav>
+        <section className='container'>
+            <card className='card'>
+                <img alt='img' />
+                <h3>Nombre</h3>
+                <h4>Precio</h4>
+            </card>
+            <card className='card'>
+                <img alt='img' />
+                <h3>Nombre</h3>
+                <h4>Precio</h4>
+            </card>
+            <card className='card'>
+                <img alt='img' />
+                <h3>Nombre</h3>
+                <h4>Precio</h4>
+            </card>
+        </section>
     )
 }
-export default itemsContainer;
+export default ItemsContainer;
