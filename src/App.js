@@ -1,12 +1,12 @@
 import React from 'react';
 
-import './App.css';
-
-import Nav from './components/header/header.js';
+import Nav from './components/Nav';
+import itemsContainer from './components/itemsContainer';
 
 function App() {
     return (
       <div>
+        <Nav />
         <Nav />
       </div>
     );
