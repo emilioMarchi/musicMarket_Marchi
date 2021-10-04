@@ -1,0 +1,13 @@
+.Cart {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    transition: all .3s;
+    color: rgb(158, 20, 50);
+}
+.Cart:hover {
+    color: rgb(165, 101, 114);
+}
+p {
+    margin: 0 0.5rem;
+}

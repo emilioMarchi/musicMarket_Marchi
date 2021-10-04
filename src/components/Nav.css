@@ -2,11 +2,15 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 5rem;
     
 }
 .nav-list {
+    margin: 0;
+    padding: 0;
     display: flex;
     text-decoration: none;
+    align-items: center;
 }
 .nav-list li {
     list-style: none;

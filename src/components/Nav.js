@@ -1,5 +1,6 @@
 import React from 'react';
 import './Nav.css';
+import Cart from './Cart';
 
 function Nav() {
     return (
@@ -10,6 +11,7 @@ function Nav() {
                 <li><a href= '#'>Productos</a></li>
                 <li><a href= '#'>Carrito</a></li>
             </ul>
+            <Cart/>
         </nav>
     )
 }
