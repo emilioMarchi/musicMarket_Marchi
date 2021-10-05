@@ -1,0 +1,11 @@
+button {
+    height: 2rem;
+    width: 2rem;
+}
+.card {
+    text-align: center;
+}
+.account {
+    display: flex;
+    justify-content: space-evenly;
+}
